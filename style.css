@@ -58,6 +58,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 #nav img{
     height: 50px;
@@ -69,18 +70,19 @@ html,body{
     align-items: center;
     
     
+    
 }
 
 
 #nav a{
     color:#ffff ;
-    font-family: 'Times New Roman', Times, serif;
+    
     text-decoration: none;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 600;
     pointer-events: all;
-    
+    font-family: "Orbitron", sans-serif;
     
     
 }
@@ -145,8 +147,9 @@ min-width: 70%;
         text-align: right;
         
         color: wheat;
-        font-weight: 600;
-        font-size: 15px;
+        font-weight: 500;
+        font-size: 13px;
+        font-family: "Orbitron", sans-serif;
         
     }
     #heroright img{
