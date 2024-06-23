@@ -13,14 +13,15 @@ html,body{
 
 #main{
     width: 100%;
-    height: 100vh;
+    height: 100%;
+  
    
     
 }
 
 #back{
 
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: black;
     
@@ -36,7 +37,7 @@ html,body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.37);
     
@@ -75,7 +76,7 @@ html,body{
 
 
 #nav a{
-    color:#ffff ;
+    color:whitesmoke ;
     
     text-decoration: none;
     text-transform: uppercase;
@@ -94,6 +95,7 @@ html,body{
     transform: translate(0%,-50%);
     display: flex;
      justify-content: space-between;
+     align-items: center;
 
     width: 100%;
     
@@ -112,7 +114,6 @@ min-width: 70%;
     position: relative;
     height: 9vw;
     overflow: hidden;
-   
     
 }
 #heroleft .elem h1:nth-child(1){
@@ -130,7 +131,7 @@ min-width: 70%;
     font-weight: 800;
     font-size:6vw;
     text-transform: uppercase;
-    letter-spacing: -5px;
+    letter-spacing: -0.3vw;
     
 }
 #heroright{
@@ -177,6 +178,38 @@ min-width: 70%;
     pointer-events: all;
     
 }
+#gg:hover{
+    color: wheat;
+    background-color: black;
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+
+
+@media (max-width: 1111px){
+#heroright{
+    width: 70vw;
+}
+
+}
+
+@media (max-width: 620px){
+    #heroright p{
+        
+        font-size: 10px;
+    }
+    
+    }
+
+    @media (max-width: 543px){
+      #navleft a{
+        opacity: 0;
+      }
+      #navright a{
+        opacity: 0;
+      }
+        
+        }
 
 /*end*/
   
